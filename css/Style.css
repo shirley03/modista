@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+	*{	padding:0px;
+		margin:5px;
+		text-align:center;
+	}
+	
+	
+
+	.Entrada{	margin:auto;
+				width:800px;
+				font-family:Georgia, "Times New Roman", Times, serif;
+			}
+	
+
+	.Imgen1 {	background: url("mujer.jpg") no-repeat;
+ 		 			
+ 						}
+
+	.Imgen1:hover {	background: url("hombre.jpg") no-repeat;	
+					}
+
+
+
+	.M{	float:left;
+		background-color: #F500E5;
+			}
+
+	.H{	float:left;
+		background-color: #002BFF;		
+			}
+
+	.H:hover{background-color:#546FF5;}
+	.M:hover{background-color:#FB9DF5;}
+
+	footer{ background-color:;	}
+	.Nomb:hover {font-size: 30px;}
+
+	
+	
