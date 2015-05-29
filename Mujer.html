@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="file:///C:/ropa/css/Style_M.css">
+		<title>Ropas</title>
+
+		</head>
+
+		<bosy>
+			<header>
+
+				<h1>ROPA MODA</h1>
+				<br><br>
+
+			</header>
+			<div class="Margen">
+				<div class="Link1">
+					<nav class="nav1">
+						<ul>
+							<li><a href="javascript:void(0);" onclick="SINO('Link2', 'Link3', 'Link4', 'LinkP')">Chaquetas</a></li>
+							<li><a href="javascript:void(0);" onclick="SINO2('Link2', 'Link3', 'Link4', 'LinkP')">Jeans</a></li>
+							<li><a href="javascript:void(0);" onclick="SINO3('Link2', 'Link3', 'Link4', 'LinkP')">Calzados</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div id="LinkP"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/13.jpg" width="300" height="150">
+								<img src="file:///C:/ropa/imagenes/ni%C3%B1as/11.jpg" width="300" height="150">
+								<img src="file:///C:/ropa/imagenes/ni%C3%B1as/12.jpg" width="300" height="150">
+				</div>
+
+				<div id="Link2" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/4.jpg" width="150" height"250">
+								<rt ><h2>Chaqueta 1</h2></rt>
+							</ruby>
+								<p>Costo $160.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/5.jpg" width="150" height"250">
+								<rt><h2>Chaqueta 2</h2></rt>
+							</ruby>
+								<p>Costo $190.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/6.jpg" width="150" height"250">
+								<rt><h2>Chaqueta 3</h2></rt>
+							</ruby>
+								<p>Costo $90.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+				<div id="Link3" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/7.jpg" width="150" height"250">
+								<rt ><h2>Jean 1</h2></rt>
+							</ruby>
+								<p>Costo $60.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/8.jpg" width="150" height"250">
+								<rt><h2>Jean 2</h2></rt>
+							</ruby>
+								<p>Costo $70.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/9.jpg" width="150" height"250">
+								<rt><h2>Jean 3</h2></rt>
+							</ruby>
+								<p>Costo $80.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+				<div id="Link4" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/1.jpg" width="150" height"250">
+								<rt ><h2>Calzado 1</h2></rt>
+							</ruby>
+								<p>Costo $100.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/2.jpg" width="150" height"250">
+								<rt><h2>Calzado 2</h2></rt>
+							</ruby>
+								<p>Costo $200.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="file:///C:/ropa/imagenes/ni%C3%B1as/3.jpg" width="150" height"250">
+								<rt><h2>Calzado 3</h2></rt>
+							</ruby>
+								<p>Costo $300.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<br><br>
+			<footer>
+				
+			</footer>
+		</bosy>
+
+	</html>
+
+	<script type"text/javascript">
+
+function SINO(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM1.style.display == 'block') {
+     
+      
+      
+   } else {	ELM1.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM2.style.display = 'none';
+      		ELM3.style.display = 'none';
+   }}
+
+   function SINO2(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM2.style.display == 'block') {
+     
+      
+      
+   } else {	ELM2.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM1.style.display = 'none';
+      		ELM3.style.display = 'none';
+   }}
+
+   function SINO3(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM3.style.display == 'block') {
+     
+      
+      
+   } else {	ELM3.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM2.style.display = 'none';
+      		ELM1.style.display = 'none';
+   }}
+
+
+</script>
